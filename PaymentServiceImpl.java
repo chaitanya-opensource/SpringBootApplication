@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 
 import com.chaitanya.core.dao.PaymentDAO;
 
+/By using IOC we are implementing intance the object using autowire, dependency, constructer when required
+
 @Service
 public class PaymentServiceImpl implements PaymentService {
 	@Autowired
