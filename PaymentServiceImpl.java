@@ -14,10 +14,12 @@ public class PaymentServiceImpl implements PaymentService {
 		return dao;
 	}
 
+	
 	public void setDao(PaymentDAO dao) {
 		this.dao = dao;
 	}
-	
+
+	/Calculation Method
 	public int calculateSum(int a, int b) {
 		a=a+b;
 		return a;
